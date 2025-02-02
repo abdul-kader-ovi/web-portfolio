@@ -43,7 +43,27 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .single-experience{
-    box-shadow: 10px 10px 4px gray;
+    box-shadow: 10px 10px 30px gray;
     border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+#full-stack{
+    border-left:  7px solid;
+    border-image: linear-gradient(180deg,lightSalmon, red);
+    border-image-slice: 1; 
+    margin-left: 80px;
+    margin-top: 50px;
+}
+#baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,cyan, blue);
+    border-image-slice: 1;
+    margin-top: 50px;
 }
